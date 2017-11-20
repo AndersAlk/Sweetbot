@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.template {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	width: 100%;
+	position: fixed;
+}
+
+#sweetbot {
+	width: 25%;
+	margin-right: 3%;
+		-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) ); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) );
+}
+
+#navigation {
+	width: 72%;
+	-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2)); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2));
+}
+
+#stickynav {
+	position: absolute;
+    width: 70%;
+	top: 30%;
+    left: 35%;
+    padding: 0px;
+    /* for the "tabbed" impression :-) */
+    overflow: visible;
+	z-index: 1;
+ }
+
+#stickynav a {
+    margin-right: 15%;
+    font-family: Lato, sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-decoration: none;
+	color: white;
+}
+
+.frontcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+}
+
+#banner {
+	width: 100%;
+	height: 670px;
+	padding: 0 0 0 0;
+	margin-top: 250px;
+	background-image: url(img/banner.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#com1 {
+	background-color: grey;
+	margin: 15px;
+	width: 25%;
+	height: 450px;
+	background-image: url(img/banner.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#com2 {
+	background-color: grey;
+	margin: 15px;
+	width: 25%;
+	height: 450px;
+	background-image: url(img/banner.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#com3 {
+	background-color: grey;
+	margin: 15px;
+	width: 25%;
+	height: 450px;
+	background-image: url(img/banner.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/*Emmas hotbot*/
+#pil{
+	margin-top: 270px;
+	z-index: 1000;
+	padding: 0;
+	margin-left: 50px;
+	-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) ); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) );
+	
+}
+#pil2{
+	float: right;
+	margin-right: 50px;
+	margin-top: 270px;
+	-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) ); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) );
+	
+}
+
+.billeder{
+	display: block;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: 230px;
+	width: 1200px;
+	margin-top: 70px;
+	padding: 0;
+	z-index: -1;
+}
+
+.textoverimage2{
+	position: relative;
+	width: 300px;
+	height: 220px;
+	float: left;
+	margin: 4px;
+	background-size: 100%;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: verdana;
+	text-align: left;
+	font-size: 10px;
+	background-repeat: no-repeat;
+	
+		
+}
+.textoverimage2:hover{
+	background-size: 110;
+	box-shadow: 0 0 15px #483345;
+}
+.textoverimage2:after{
+	position: absolute;
+	top:70%;
+	bottom: 0;
+	left:0;
+	right: 0;
+	white-space: pre-wrap;
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 0 8px;
+	opacity: 0;
+	content:attr(data-text);
+	transition: 0.5s;
+		
+}
+.textoverimage2:hover:after{
+	opacity: 1;
+	top: 0;
+	padding: 8px;
+}
+.textoverimage2:first-line{
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	font-size: 15px;
+
+}
+button{
+	float: right;
+	margin-top: 198px;
+	background-color: #286AA6;
+	color: white;
+	font-size: 15px;
+}
+#hotbot{
+	float: left;
+	padding: 0;
+	margin-right: 200px;
+	z-index: 2000px;
+	-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) ); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) );
+}
+/*Katrines arbejde*/#
+#overskrift{
+front-size: 1.8em;
+padding-top: 200px;
+padding-left: 70px;
+text-align: left; 	
+
+}
+p{
+text-align: left;
+front-size: 20em;
+padding: 10px 80px 20px 70px;
+	
+}
+#overskrift2{
+front-size: 1.8em;
+text-align: left;
+padding-left: 580px;
+padding-top: 200px;
+}
+	
+#overskrift3{
+front-size: 1.8em;
+padding-top: 230px;
+padding-left: 80px;
+text-align: left; 	
+
+}
+p{
+	text-align: left;
+	front-size: 20em;
+	padding-top: 10px;
+}
+/* Josephines arbejde - stylesheet til kontakt side */ 
+
+#flexboks {
+	width: 100%;
+	height: 400px;
+}
+
+/* "book et møde" boks */
+
+#tekstboks {
+	margin-top: 5%;
+	margin-bottom: 10%
+}
+
+#tekstboks h1 {
+	color: #B5B2B0;
+	font-family: Lato, sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+
+/* 3 kontakt muligheder - boks */
+
+#kontaktflexboks {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#kontaktflexboks h3 {
+	font-family: Lato, sans-serif;
+	color: #2A1000;
+	font-size: 17px;
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+#kontaktflexboks p {
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	color: #B5B2B0;
+	margin: 0;
+}
+
+
+.tekstflexboks {
+	display: inline;
+	padding-left: 20px;
+}
+
+#stedboks {
+	width: 30%;
+	display: flex;
+}
+ 
+#telefonboks {
+	width: 30%;
+	display: flex;
+}
+
+#mailboks {
+	width: 30%;
+	display: flex;
+}
+
+.mailikon {
+	height: 50px;
+	width: auto;	
+}
+
+#footerboks {
+	width: 100%;
+	height: 20px;
+	color: #2A1000;
+	background-color: #749cd3;
+	font-family: Lato, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding: 7px;
+	margin-top: 30px;
+	margin-bottom: 5000px;
+}

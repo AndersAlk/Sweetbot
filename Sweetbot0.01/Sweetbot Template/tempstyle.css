@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.template {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	width: 100%;
+	position: fixed;
+}
+
+#sweetbot {
+	width: 25%;
+	margin-right: 3%;
+		-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) ); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) );
+}
+
+#navigation {
+	width: 72%;
+	-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2)); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2));
+}
+
+#stickynav {
+	position: absolute;
+    width: 70%;
+	top: 30%;
+    left: 35%;
+    padding: 0px;
+    /* for the "tabbed" impression :-) */
+    overflow: visible;
+	z-index: 1;
+ }
+
+#stickynav a {
+    margin-right: 15%;
+    font-family: Lato, sans-serif;
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-decoration: none;
+	color: white;
+}
+
+.frontcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}
+
+#com1 {
+	background-color: grey;
+	width: 25%;
+	height: 450px;
+	margin-top: 500px;
+}
+
+#com2 {
+	background-color: grey;
+	width: 25%;
+	height: 450px;
+	margin-top: 500px;
+}
+
+#com3 {
+	background-color: grey;
+	width: 25%;
+	height: 450px;
+	margin-top: 500px;
+}
