@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Josephines arbejde - stylesheet til kontakt side */ 
+
+#flexboks {
+	width: 100%;
+	height: 400px;
+	background-color: darkgrey;
+}
+
+/* "book et møde" boks */
+
+#tekstboks {
+	position: relative;
+	flex: auto;
+	margin-top: 5%;
+	background-color: darkseagreen;
+}
+
+#tekstboks h1 {
+	color: #B5B2B0;
+	font-family: Lato, sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+
+/* 3 kontakt muligheder - boks */
+
+#kontaktflexboks {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: lightpink;
+	
+}
+
+#kontaktflexboks h3 {
+	font-family: Lato, sans-serif;
+	color: #2A1000;
+	font-size: 17px;
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+#kontaktflexboks p {
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	color: #B5B2B0;
+	margin: 0;
+}
+
+
+.tekstflexboks {
+	display: inline;
+	padding-left: 20px;
+}
+
+#stedboks {
+	width: 30%;
+	display: flex;
+}
+ 
+#telefonboks {
+	width: 30%;
+	display: flex;
+}
+
+#mailboks {
+	width: 30%;
+	display: flex;
+}
+
+.mailikon {
+	height: 50px;
+	width: auto;	
+}
+
+#footerboks {
+	width: 100%;
+	height: 20px;
+	background-color: #749CD3;
+	color: #2A1000;
+	font-family: Lato, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	padding: 7px;
+	margin-top: 30px;
+}
