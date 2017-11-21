@@ -19,7 +19,7 @@ body {
 .template {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 50px;
+	margin-top: 85px;
 	width: 100%;
 	position: fixed;
 }
@@ -55,7 +55,7 @@ body {
     margin-right: 15%;
     font-family: Lato, sans-serif;
     font-size: 1.2vw;
-    font-weight: bold;
+    font-weight: 500;
     text-decoration: none;
 	color: white;
 }
@@ -77,18 +77,22 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-
+ul {
+	margin-bottom: 50px;
+	bottom: 50px;
+}
 #com1 {
 	width: 25%;
 	margin: auto;
 	height: 450px;
-	background-image: url(img/bizpack.jpg);
+	background-image: url(img/smartpack.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
-	font-family: lato;
+	font-family: lato, sans-serif;
+	font-weight: 500;
 	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#com1 com2 com3 h2{
+#com1 h2{
 	text-align: center;
 }
 
@@ -97,10 +101,11 @@ body {
 	width:25%;
 	height: 450px;
 	margin: auto;
-	background-image: url(img/banner.gif);
+	background-image: url(img/devpack.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
-	font-family: lato;
+	font-family: lato, sans-serif;
+	font-weight: 500;
 	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #com2 h2{
@@ -112,10 +117,10 @@ body {
 	margin: auto;
 	width: 25%;
 	height: 450px;
-	background-image: url(img/banner.gif);
+	background-image: url(img/bizpack.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
-	font-family: lato;
+	font-family: lato, sans-serif;
 	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #com3 h2{
@@ -153,15 +158,14 @@ body {
 	background-size: cover;
 	transition: 0.5s;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	font-family: lato;
+	font-family: lato, sans-serif;
+	font-weight: 500;
 	text-align: left;
 	font-size: 10px;
 	background-repeat: no-repeat;
 }
 .textoverimage2:hover{
 	box-shadow: 0 0 15px #3C3C3C;
-	
-	
 }
 .textoverimage2:after{
 	top:70%;
@@ -210,25 +214,28 @@ button:hover{
 
 p{
 front-size: 20em;
-font-family: lato;
+font-family: lato, sans-serif;
+font-weight: 400;
 line-height: 25px;
 }
 
 #overskrift{
 front-size: 1.8em;
+font-weight: 500;
 padding-top: 200px;
 padding-left: 150px;
 text-align: left; 	
-font-family: lato;
+font-family: lato, sans-serif;
 
 }
 
 #overskrift2{
 front-size: 1.8em;
 text-align: right;
-padding-right: 565px;
+padding-right: 290px;
 padding-top: 15%;
-font-family: lato;
+font-family: lato, sans-serif;
+font-weight: 500;
 }
 	
 #overskrift3{
@@ -236,9 +243,10 @@ front-size: 1.8em;
 padding-top: 15%;
 padding-left: 150px;
 text-align: left; 
-font-family: lato;
-
+font-family: lato, sans-serif;
+font-weight: 500;
 }
+
 #p1 {
 	max-width: 550px;
 	padding-left: 150px;
@@ -256,19 +264,19 @@ font-family: lato;
 }
 #layout1 {
 	margin-right: 150px;
+	max-width: 90%
 }
 #layout2 {
 	margin-left: 150px;
+	max-width: 90%
 }
 #layout3 {
 	margin-right: 150px;
+	max-width: 90%
 }
 /* Josephines arbejde - stylesheet til kontakt side */ 
 #fuckyouhtml5 {
 	height: 250px;}
-#josephine{
-	margin-top: 300px;
-}
 
 #flexboks {
 	width: 100%;
@@ -285,7 +293,8 @@ font-family: lato;
 #tekstboks h1 {
 	color: #B5B2B0;
 	font-family: Lato, sans-serif;
-	font-size: 60px;
+	font-size: 70px;
+	font-weight: 500;
 	text-align: center;
 }
 
@@ -303,6 +312,7 @@ font-family: lato;
 	font-family: Lato, sans-serif;
 	color: #2A1000;
 	font-size: 17px;
+	font-weight: 500;
 	margin-top: 0;
 	margin-bottom: 3px;
 }
@@ -310,6 +320,7 @@ font-family: lato;
 #kontaktflexboks p {
 	font-family: Lato, sans-serif;
 	font-size: 16px;
+	font-weight: 400;
 	color: #B5B2B0;
 	margin: 0;
 }
@@ -320,22 +331,18 @@ font-family: lato;
 	padding-left: 20px;
 }
 
-#stedboks {
-	width: 30%;
-	display: flex;
-}
- 
-#telefonboks {
-	width: 30%;
-	display: flex;
-}
-
 #mailboks {
+	margin:auto;
+	width: 30%;
+	display: flex;
+}
+#ceo{
+	margin:auto;
 	width: 30%;
 	display: flex;
 }
 
-.mailikon {
+.ikon {
 	height: 50px;
 	width: auto;
 	margin-left: 100px;
@@ -348,6 +355,7 @@ font-family: lato;
 	background-color: #749cd3;
 	font-family: Lato, sans-serif;
 	font-size: 12px;
+	font-weight: 500;
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 2px;
