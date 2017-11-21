@@ -10,7 +10,11 @@ body {
 	position: fixed;
 	background-color: white;
 	width: 100%;
-	height: 115px;
+	height: 151px;
+	margin-top: -50px; 
+}
+#air {
+	height: 100px;
 }
 .template {
 	display: flex;
@@ -18,6 +22,9 @@ body {
 	margin-top: 50px;
 	width: 100%;
 	position: fixed;
+}
+#navigation a:hover{
+	text-decoration: underline;
 }
 
 #sweetbot {
@@ -39,7 +46,7 @@ body {
 	top: 30%;
     left: 35%;
     padding: 0px;
-    /* for the "tabbed" impression :-) */
+    /* for the "tabbed" impression  */
     overflow: visible;
 	z-index: 1;
  }
@@ -58,58 +65,76 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
-#banner {
+#fuckyouhtml {
+	height: 70px;
+}
+#bannerreal {
 	width: 100%;
-	height: 670px;
-	padding: 0 0 0 0;
-	margin-top: 250px;
-	background-image: url(../Sweetbot/img/banner.gif);
+	height: 650px;
+	padding: 0;
+	margin-top: 50px;
+	background-image: url(img/banner.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #com1 {
-	background-color: grey;
-	margin: 15px;
 	width: 25%;
+	margin: auto;
 	height: 450px;
-	background-image: url(../Sweetbot/img/banner.gif);
+	background-image: url(img/bizpack.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
+	font-family: lato;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#com1 com2 com3 h2{
+	text-align: center;
+}
+
 
 #com2 {
-	background-color: grey;
-	margin: 15px;
-	width: 25%;
+	width:25%;
 	height: 450px;
-	background-image: url(../Sweetbot/img/banner.gif);
+	margin: auto;
+	background-image: url(img/banner.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
+	font-family: lato;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#com2 h2{
+	text-align: center;
+}
+
 
 #com3 {
-	background-color: grey;
-	margin: 15px;
+	margin: auto;
 	width: 25%;
 	height: 450px;
-	background-image: url(../Sweetbot/img/banner.gif);
+	background-image: url(img/banner.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
+	font-family: lato;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#com3 h2{
+	text-align: center;
 }
 
+#fuckyouhtml2 {
+	height: 120px;}
 /*Emmas hotbot*/
 #pil{
 	float: left;
-	margin-top: 270px;
+	margin-top: 250px;
 	padding: 0;
 	margin-left: 50px;
 }
 #pil2{
 	float: right;
 	margin-right: 50px;
-	margin-top: 270px;
+	margin-top: 250px;
 }
 
 .billeder{
@@ -128,21 +153,34 @@ body {
 	background-size: cover;
 	transition: 0.5s;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	font-family: verdana;
+	font-family: lato;
 	text-align: left;
 	font-size: 10px;
 	background-repeat: no-repeat;
 }
 .textoverimage2:hover{
-	box-shadow: 0 0 15px #483345;
+	box-shadow: 0 0 15px #3C3C3C;
+	
+	
 }
-extoverimage2:hover:after{
+.textoverimage2:after{
+	top:70%;
+	white-space: pre-wrap;
+	color: #000;
+	padding: 0 8px;
+	opacity: 0;
+	content:attr(data-text);
+	transition: 0.5s;
+		
+}
+.textoverimage2:hover:after{
 	opacity: 1;
 	top: 0;
 	padding: 8px;
+
 }
 .textoverimage2:first-line{
-	color: #fff;
+	color: #000;
 	font-weight: bold;
 	text-align: left;
 	font-size: 15px;
@@ -156,51 +194,78 @@ button{
 	font-size: 15px;
 	z-index: 1000;
 }
+button:hover{
+	color: #749CD3;
+}
 #hotbot{
 	float: left;
 	padding: 0;
 	margin-right: 200px;
 }
+#fuckyouhtml3 {
+	height: 100px;}
 /*Katrines arbejde*/
+#fuckyouhtml4 {
+	height: 120px;}
 
-#katrine {
-	margin-top: 100px;
+p{
+front-size: 20em;
+font-family: lato;
+line-height: 25px;
 }
 
 #overskrift{
 front-size: 1.8em;
 padding-top: 200px;
-padding-left: 70px;
+padding-left: 150px;
 text-align: left; 	
+font-family: lato;
 
 }
-p{
-text-align: left;
-front-size: 20em;
-padding: 10px 80px 20px 70px;
-	
-}
+
 #overskrift2{
 front-size: 1.8em;
-text-align: left;
-padding-left: 580px;
-padding-top: 200px;
+text-align: right;
+padding-right: 565px;
+padding-top: 15%;
+font-family: lato;
 }
 	
 #overskrift3{
 front-size: 1.8em;
-padding-top: 230px;
-padding-left: 80px;
-text-align: left; 	
+padding-top: 15%;
+padding-left: 150px;
+text-align: left; 
+font-family: lato;
 
 }
-p{
-	text-align: left;
-	front-size: 20em;
-	padding-top: 10px;
+#p1 {
+	max-width: 550px;
+	padding-left: 150px;
+	margin-right: auto;
+}
+#p2{
+	max-width: 550px;
+	padding-right: 150px;
+	margin-left: auto;
+}
+#p3{
+	max-width: 550px;
+	padding-left: 150px;
+	margin-right: auto;
+}
+#layout1 {
+	margin-right: 150px;
+}
+#layout2 {
+	margin-left: 150px;
+}
+#layout3 {
+	margin-right: 150px;
 }
 /* Josephines arbejde - stylesheet til kontakt side */ 
-
+#fuckyouhtml5 {
+	height: 250px;}
 #josephine{
 	margin-top: 300px;
 }
@@ -272,7 +337,8 @@ p{
 
 .mailikon {
 	height: 50px;
-	width: auto;	
+	width: auto;
+	margin-left: 100px;
 }
 
 #footerboks {
@@ -285,4 +351,24 @@ p{
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 2px;
+}
+section {
+	width: 100%;
+	height: auto;
+}
+/* her er farveindeling til sectionerne
+section:nth-child(1) {
+    background-color: lightgreen;
+}
+section:nth-child(2) {
+    background-color: lightblue;
+}
+section:nth-child(3) {
+    background-color: cornsilk;
+}
+section:nth-child(4) {
+    background-color: tan;
+}
+section:nth-child(5) {
+    background-color: wheat;
 }
