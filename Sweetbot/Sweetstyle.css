@@ -6,6 +6,12 @@ body {
 	padding: 0;
 	border: 0;
 }
+a {
+	text-decoration: none;
+}
+#hbphone {
+	display: none;
+}
 #cover {
 	position: fixed;
 	background-color: white;
@@ -60,12 +66,20 @@ body {
 	color: white;
 }
 
+#hotbottemp {
+	position: fixed;
+	width: 10%;
+	z-index: 0;
+	left: 49%;
+	top: 45px;
+}
+
 .frontcontainer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-#fuckyouhtml {
+#mellemrum {
 	height: 70px;
 }
 #bannerreal {
@@ -73,7 +87,7 @@ body {
 	height: 650px;
 	padding: 0;
 	margin-top: 50px;
-	background-image: url(img/banner.gif);
+	background-image: url(img/banner4.1.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -81,19 +95,30 @@ ul {
 	margin-bottom: 50px;
 	bottom: 50px;
 }
+#toplogo {
+position: absolute;
+margin-top: -315px;
+}
 #com1 {
 	width: 25%;
 	margin: auto;
 	height: 450px;
-	background-image: url(img/smartpack.gif);
+	background-image: url(img/smartpack.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	font-family: lato, sans-serif;
+	font-size: 1.2vw;
 	font-weight: 500;
 	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #com1 h2{
 	text-align: center;
+	
+}
+#comtext {
+	margin-top: 250px;
+	text-decoration: none;
+	text-align: left;
 }
 
 
@@ -101,10 +126,11 @@ ul {
 	width:25%;
 	height: 450px;
 	margin: auto;
-	background-image: url(img/devpack.gif);
+	background-image: url(img/devpack.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	font-family: lato, sans-serif;
+	font-size: 1.2vw;
 	font-weight: 500;
 	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -117,17 +143,19 @@ ul {
 	margin: auto;
 	width: 25%;
 	height: 450px;
-	background-image: url(img/bizpack.gif);
+	background-image: url(img/bizpack.jpg);
 	background-repeat: no-repeat;
 	background-size: contain;
+	font-size: 1.2vw;
 	font-family: lato, sans-serif;
-	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight: 500;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 #com3 h2{
 	text-align: center;
 }
 
-#fuckyouhtml2 {
+#mellemrum2 {
 	height: 120px;}
 /*Emmas hotbot*/
 #pil{
@@ -204,13 +232,13 @@ button:hover{
 #hotbot{
 	float: left;
 	padding: 0;
-	margin-right: 200px;
+	margin-left: -105px;
 }
-#fuckyouhtml3 {
-	height: 100px;}
-/*Katrines arbejde*/
-#fuckyouhtml4 {
+#mellemrum3 {
 	height: 120px;}
+/*Katrines arbejde*/
+#mellemrum4 {
+	height: 0px;}
 
 p{
 front-size: 20em;
@@ -275,7 +303,7 @@ font-weight: 500;
 	max-width: 90%
 }
 /* Josephines arbejde - stylesheet til kontakt side */ 
-#fuckyouhtml5 {
+#mellemrum5 {
 	height: 250px;}
 
 #flexboks {
@@ -364,7 +392,8 @@ section {
 	width: 100%;
 	height: auto;
 }
-/* her er farveindeling til sectionerne
+/* her er farveindeling til sectionerne*/
+/*
 section:nth-child(1) {
     background-color: lightgreen;
 }
@@ -379,4 +408,530 @@ section:nth-child(4) {
 }
 section:nth-child(5) {
     background-color: wheat;
+} 
+*/
+/*media query inde i dette stylesheet (en slags "mini stylesheet" inde i et andet)*/
+@media all and (max-width : 1024px) {
+/* navigation bar */
+	#navbar{
+		visibility: hidden;
+		height: 54px;
+	}
+	
+	#navigation {
+	width: 100%;
+	margin-top: -62px;
+}
+	#sweetbot {
+		margin-top: -35px;
+		width: 35%;
+	}
+	
+#stickynav {
+	position:static;
+    width: inherit;
+	top: 0;
+    left: 0;
+    /* for the "tabbed" impression  
+    overflow: visible;
+	z-index: 1;*/
+ }
+
+#stickynav a {
+	display: block;
+    margin-right: 0;
+    font-size: medium;
+	color: white;
+	text-align: center;
+	background-color: #DF9B67;
+	padding: 10px;
+	text-decoration: none;
+	padding-top: 0px; 
+	border-top: 0.5px solid #3d6bb4;
+}
+	#navigation a:hover{
+	color: #749CD3;
+	text-decoration: none;
+}
+#hotbottemp {
+	position: relative;
+	width: 10%;
+	z-index: 2;
+	left: 0%;
+	top: 5px;
+}
+	#bannerreal {
+	height: 250px;
+	padding: 0;
+	margin-top: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#toplogo {
+position: relative;
+margin-top: -75px;
+}
+	#pil{
+	visibility: hidden;
+	float: left;
+	margin-top: 250px;
+	padding: 0;
+	margin-left: 50px;
+}
+#pil2{
+	visibility: hidden;
+	float: right;
+	margin-right: 50px;
+	margin-top: 250px;
+}
+
+
+.billeder{
+	width: 80%;
+	margin-left:  auto;
+	margin-top: 0px;
+}
+
+.textoverimage2{
+	width: 30%;
+	height: 100px;
+	margin: 4px;
+	background-size:contain;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-repeat: no-repeat;
+	 
+}
+.textoverimage2:hover{
+	visibility: none;
+	box-shadow: 0 0 15px #3C3C3C;
+	
+	
+}
+.textoverimage2:after{
+	visibility: none;
+	top:70%;
+	white-space: 0;
+	color: #000;
+	padding: 0 0px;
+	opacity: 0;
+	content:attr(data-text);
+	transition: 0.5s;
+		
+}
+.textoverimage2:hover:after{
+	visibility: none;
+	opacity: 0;
+	top: 0;
+	padding: 0px;
+
+}
+.textoverimage2:first-line{
+	visibility: none;
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+	font-size: 15px;
+
+}   
+	button{
+	margin-top: 85px;
+}
+	button{
+	font-size: 10px;
+}
+	#hotbot{
+	margin-top: 200px;
+	width: 20%;
+}
+#comtext {
+	margin-top: 120px; 
+	}
+#com1 {
+width: 25%;
+margin: 20px;
+height: 300px;
+margin-left: 25px;
+margin-top: -200px;
+font-size: 2vw;
+}
+
+#com2 {
+	width:25%;
+	height: 300px;
+	margin: auto;
+	margin-top: -200px;
+	font-size: 2vw;
+}
+
+#com3 {
+	margin: auto;
+	width: 25%;
+	height: 300px;
+	margin-top: -200px;
+	font-size: 2vw;
+}
+.frontcontainer {
+	margin-top: 70px;
+	}
+	
+p{
+front-size: 15em;
+font-family: lato;
+line-height: 25px;
+margin: auto;
+}
+
+#overskrift{
+front-size: 1.8em;
+padding-top: 200px;
+padding-left: 315px;
+text-align: left; 	
+font-family: lato;
+
+}
+
+#overskrift2{
+front-size: 1.8em;
+text-align: right;
+padding-right: 300px;
+padding-top: 15%;
+font-family: lato;
+}
+	
+#overskrift3{
+front-size: 1.8em;
+padding-top: 15%;
+padding-left: 315px;
+text-align: left; 
+font-family: lato;
+
+}
+#p1 {
+	max-width: 400px;
+	padding-left: 30px;
+	margin-right: auto;
+}
+#p2{
+	max-width: 400px;
+	margin-left: 170px;
+}
+#p3{
+	max-width: 400px;
+	margin-right: 165px;
+}
+#layout1 {
+	margin-left: auto;
+	width: 50%;
+}
+#layout2 {
+	float: right;
+	margin-right: auto;
+	width: 50%;
+}
+#layout3 {
+	margin-left: auto;
+	width: 50%;
+}
+	
+#mellemrum {
+	height: 20px;
+}
+#mellemrum2 {
+	height: 350px;
+}
+#mellemrum3 {
+	height: 0px;
+}
+/*Katrines arbejde*/
+#mellemrum4 {
+	height: 0px;
+	} 
+#mellemrum5 {
+	height: 120px;
+	} 
+#mailboks {
+	margin: auto;
+	width: 50%;
+	display: flex;
+}
+#ceo{
+	margin:auto;
+	width: 50%;
+	display: flex;
+}
+.ikon {
+	height: 60px;
+	width: auto;
+	margin-left: 13%;
+}
+}
+/*Her starter mediaquery til smartphone*/
+@media all and (max-width : 480px) {
+	#bannerreal {
+		visibility: hidden;
+	}
+#cover {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 0px;
+	margin-top: -60px; }
+
+#sweetbot {
+	width: 75%;
+	margin-right: 3%;
+	margin-top: 30px;
+		-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) ); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2) );
+}
+#navigation img{
+	margin: -4px;
+	padding: 0px;
+	height: 40px;
+	width: auto;
+	}
+	
+#navigation {
+	-webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2)); 
+            filter: drop-shadow( 5px 5px 5px rgba(0,0,0,0.2));
+}
+	
+#stickynav {
+	position: fixed;
+	display: flex;
+	top: 5%;
+    left: 0;
+    padding: 0px;
+    /* for the "tabbed" impression  */
+    overflow: visible;
+	z-index: 1;
+ }
+
+#stickynav a {;
+    font-family: Lato, sans-serif;
+    font-size: 3.7vw;
+    font-weight: 500;
+    text-decoration: none;
+	color: white;
+	border-top: 0px;
+	border-left: solid;
+	margin-top: -25px;
+	width: 100%;
+}
+	#navigation a:hover{
+	text-decoration: none;
+}
+#hotbottemp {
+	display: none;
+}
+#hbphone {
+	display: block;
+	width: 45%;
+	margin-top: 38%;
+}
+#bannerreal {
+	height: 0;
+	padding: 0;
+	margin-top: 0;
+}
+#toplogo {
+position: absolute;
+margin-top: -315px;
+visibility: hidden;
+}
+	#pil{
+	visibility: hidden;
+	float: left;
+	margin-top: 250px;
+	padding: 0;
+	margin-left: 50px;
+}
+#pil2{
+	visibility: hidden;
+	float: right;
+	margin-right: 50px;
+	margin-top: 250px;
+}
+
+
+.billeder{
+	width: 97%;
+	margin-left:  auto;
+	margin-top: 0px;
+}
+
+.textoverimage2{
+	width: 30%;
+	height: 130px;
+	margin: 0px;
+	background-size:contain;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-repeat: no-repeat;
+	 
+}
+.textoverimage2:hover{
+	visibility: none;
+	box-shadow: 0 0 15px #3C3C3C;
+	
+	
+}
+.textoverimage2:after{
+	visibility: none;
+	top:70%;
+	white-space: 0;
+	color: #000;
+	padding: 0 0px;
+	opacity: 0;
+	content:attr(data-text);
+	transition: 0.5s;
+		
+}
+.textoverimage2:hover:after{
+	visibility: none;
+	opacity: 0;
+	top: 0;
+	padding: 0px;
+
+}
+.textoverimage2:first-line{
+	visibility: none;
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+	font-size: 15px;
+
+}   
+	button{
+	margin-top: 100px;
+}
+	button{
+	font-size: 20px;
+}
+	#hotbot{
+	margin-top: 200px;
+}
+
+	#com1 {
+	width: 60%;
+	height: 300px;
+	margin-top: -200px;
+	}
+
+#com2 {
+	width:60%;
+	height: 300px;
+	margin-top: 0px;
+}
+
+#com3 {
+	width: 60%;
+	height: 300px;
+	margin-top: 20px;
+}
+#comtext {
+		font-size: 3.5vw;
+		margin-top: 150px;
+	}
+.frontcontainer {
+	margin-top: 0px;
+	justify-content: space-around;
+	}
+	
+p{
+front-size: 15em;
+font-family: lato;
+line-height: 25px;
+margin: 15px;
+}
+
+#overskrift{
+front-size: 1.8em;
+padding-top: 200px;
+padding-left: 0px;
+text-align: center; 	
+font-family: lato;
+
+}
+
+#overskrift2{
+front-size: 1.8em;
+text-align: center;
+padding-right: 0px;
+padding-top: 15%;
+font-family: lato;
+}
+	
+#overskrift3{
+front-size: 1.8em;
+padding-top: 15%;
+padding-left: 0px;
+text-align: center; 
+font-family: lato;
+
+}
+#p1 {
+	max-width: 800px;
+	width: 90%;
+	padding-left: 0px;
+	margin-right: auto;
+}
+#p2{
+	max-width: 800px;
+	width: 90%;
+	padding: 0px;
+	margin: auto;
+}
+#p3{
+	max-width: 800px;
+	width: 90%;
+	padding-left: 0px;
+	margin-right: auto;
+}
+#layout1 {
+	margin-left: auto;
+	width: 100%;
+}
+#layout2 {
+	float: right;
+	margin-right: 15px;
+	width: 100%;
+}
+#layout3 {
+	margin-left: auto;
+	width: 100%;
+}
+	
+#mellemrum {
+	height: 20px;
+}
+#mellemrum2 {
+	height: 350px;
+}
+#mellemrum3 {
+	height: 0px;
+}
+/*Katrines arbejde*/
+#mellemrum4 {
+	height: 0px;
+	} 
+#mellemrum5 {
+	height: 80px;
+	} 
+#mailboks {
+	margin: auto;
+	width: 70%;
+	display: flex;
+}
+#ceo{
+	margin:auto;
+	width: 70%;
+	display: flex;
+}
+.ikon {
+	height: 60px;
+	width: auto;
+	margin-left: 0;
+}
 }

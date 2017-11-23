@@ -1,0 +1,188 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+	<!--Husk denne linje for at mindre skærme skal bruge den rette mediaquery-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweetbot</title>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="Sweetstyle.css" rel="stylesheet">
+<!--Loader jQuery fra server-->
+	<script type="text/javascript" src="src/jquery-3.2.1.min.js">
+	</script>
+	<!--Her indsættes jQuery scroll animation fra "https://github.com/flesler/jquery.scrollTo"-->
+	<script type="text/javascript" src="src/jquery.scrollTo.min.js"></script>
+	
+	<!-- Embedded javascript-->
+<script type="text/javascript">
+	// the famous document.ready function
+	$(document).ready(function(){
+		//alle js kode til dokumentet (selve websitet) kommer her
+		$("#stickynav a").click(function(){
+			
+			$(window).scrollTo(this.hash,1000);		
+		});
+		
+		//(document).ready ende-klamper
+	});
+	</script>
+</head>
+	
+<body>
+<section id="forside">
+<div>
+	<div id="cover">
+	<div class="template">
+	  <div id="sweetbot">
+		  <a href="#"><img src="sweetbot-template/img/SVG/sweetbot-logo.svg" alt="Sweetbot.Design logo"></a>
+		</div>
+		<nav id="navigation"><img src="sweetbot-template/img/SVG/sweetbot-navbar.svg" alt="Navigation Bar" id="navbar">
+		<nav id="stickynav">
+			<a href="#produkter">Produkter</a>
+			<a href="#webshop"><img src="img/hotbotlogo.png" alt="e-commerce" id="hotbottemp">Webshop</a>
+			<a href="#referencer">Referencer</a>
+			<a href="#kontakt">Kontakt</a>
+	</nav>
+		
+		</nav>
+		
+	</div>
+
+
+	</div>
+</div>
+		<!--End of template-->
+	<div id="mellemrum"></div>
+	<a href="#webshop"><img src="img/hotbotlogo.png" alt="e-commerce" id="hbphone"></a>
+	<div id="bannerreal">
+	</div>
+	<div id="toplogo"><a href="#webshop"><img src="img/hotbotlogo.png" alt="e-commerce" width="30%"></a></div>
+</section>
+		<section id="produkter"><div id="mellemrum2"></div>
+		  <div class="frontcontainer">
+		    <div id="com1">
+				<div id="comtext">
+		      <h2>Smart pakke</h2>
+		      <ul>
+		        - Lorem ipsum<br><br>
+				- Lorem ipsum<br><br>
+				- Lorem ipsum
+					</ul>
+		   </div>
+	        </div>
+		    <div id="com2"><div id="comtext">
+		      <h2>Udvikler pakke</h2>
+		      <ul>
+		        - Lorem ipsum<br><br>
+				- Lorem ipsum<br><br>
+				- Lorem ipsum
+					</ul>
+		   </div>
+	        </div>
+		    <div id="com3">
+		      <div id="comtext">
+		      <h2>Virksomheds pakke</h2>
+		      <ul>
+		        - Lorem ipsum<br><br>
+				- Lorem ipsum<br><br>
+				- Lorem ipsum
+					</ul>
+				</div>
+				</div>
+	      </div>
+</section>
+<section id="webshop">	<!--start på emmas hotbot--><div id="mellemrum3"></div>
+	<div id="pil">
+<img src="img/pil.png" alt="pil" height="100px" width="55px">
+	</div>
+<div id="pil2">
+<img src="img/pil2.png" alt="pil" height="100px" width="55px" float="right">
+	</div>	<div id="hotbot">
+	<img src="img/hotbotlogo.png" alt="e-commerce" width="270px" height="110px">
+	</div>
+	<div class="billeder">
+		
+		<div class="textoverimage2" style="background-image:url(img/screenshot.jpg)" data-text="Domænenavn"><a href="payment.html"><button>Køb nu</button></a>
+			</div>
+		
+	
+		<div class="textoverimage2" style="background-image:url(img/screenshot.jpg)" data-text="Webhotel"><button>Køb nu</button>
+	
+		</div>	
+		<div class="textoverimage2" style="background-image:url(img/screenshot.jpg)" data-text="Undersider"><button>Køb nu</button>
+	
+		</div>	
+		
+		<div class="textoverimage2" style="background-image:url(img/screenshot.jpg)" data-text="Lorem Ipsum"><button>Køb nu</button>
+	
+		</div>	
+		
+		<div class="textoverimage2" style="background-image:url(img/screenshot.jpg)" data-text="Lorem Ipsum"><button>Køb nu</button>
+		</div>	
+		<div class="textoverimage2" style="background-image:url(img/screenshot.jpg)" data-text="Lorem Ipsum"><button>Køb nu</button>
+		</div>	
+	</div>
+	
+	</section><section id="referencer"><div id="mellemrum4"></div>
+	
+	
+	<!--Katrines marketing halløj-->
+	<div>
+
+<h2 id="overskrift">Lorem ipsum </h2>
+<p style="float:right; margin-right:15px; margin-bottom:10px; margin-top:0px"><img src="img/screenshot.jpg" alt="billede" id="layout1"></p>
+
+<p id="p1">Dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. Donec augue. <br>Phasellus dui. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim. <br>dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. <br>Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. <br>Donec augue. Phasellus dui. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim.</p>
+
+</div>	
+
+	<div>
+<h2 id="overskrift2">Lorem ipsum</h2>
+<p style="float:left; margin-right:15px; margin-bottom:50px; margin-top:0px front-size: 50px;"><img src="img/screenshot.jpg" alt="billede" id="layout2"></p>
+
+<p id="p2">Dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. Donec augue. <br>Phasellus dui. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim. <br>dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. <br>Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. <br>Donec augue. Phasellus dui. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim.</p>
+
+</div>	
+
+
+<div>
+<h2 id="overskrift3">Lorem ipsum</h2>
+<p style="float:right; margin-right:15px; margin-bottom:50px; margin-top:0px front-size: 50px;"><img src="img/screenshot.jpg" alt="billede" id="layout3"></p>
+
+<p id="p3">Dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. Donec augue. <br>Phasellus dui. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim. <br>dolor sit amet, consectetur adipiscing elit. Fusce quis lectus quis sem lacinia nonummy. <br>Proin mollis lorem non dolor. In hac habitasse platea dictumst. Nulla ultrices odio. <br>Donec augue. Phasellus dui. Maecenas facilisis nisl vitae nibh. Proin vel seo est vitae eros pretium dignissim.</p>
+
+</div>
+</section>
+	<!-- Josephines arbejde - kontakt side --> 
+<section id="kontakt"><div id="mellemrum5"></div>
+	<div id="flexboks">	
+		<div id="tekstboks">
+			<a href="#"><h1>Book et møde!</h1></a>
+		</div>
+	
+		<div id="kontaktflexboks">
+			
+		<div id="ceo">
+				<img class="ikon" src="img/ceo.png" alt="Ceo ikon">
+				<div class="tekstflexboks">
+					<h3>CEOs:</h3>
+					<p>Merethe Geldermann <br>Marc Kluge</p>
+				</div>
+			</div>
+			<div id="mailboks">
+				<a href="#"><img class="ikon" src="img/mailikon.png" alt="Mail ikon"></a>
+				<div class="tekstflexboks">
+					<h3>E-mail:</h3>
+					<p>mli@cphbusiness.dk <br> klu@cphbusiness.dk</p>
+				</div>
+			</div>
+		
+		</div>
+	
+	</div>	
+	
+<footer>	
+	<div id="footerboks">Sweetbot Design</div>
+</footer>
+</section>
+</body>
+</html>
